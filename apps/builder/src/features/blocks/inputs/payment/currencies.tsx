@@ -491,7 +491,7 @@ export const currencies = [
     description: 'Ugandan Shilling',
   },
   {
-    code: 'USD',
+    code: 'brl',
     description: 'United States Dollar',
   },
   {

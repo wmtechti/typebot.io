@@ -4,7 +4,7 @@ import Stripe from 'stripe'
 type Props = {
   customerId: string
   workspaceId: string
-  currency: 'usd' | 'eur'
+  currency: 'brl' | 'eur'
   plan: 'STARTER' | 'PRO'
   returnUrl: string
   userId: string
@@ -29,7 +29,7 @@ export const createCheckoutSessionUrl =
       },
       currency,
       billing_address_collection: 'required',
-      automatic_tax: { enabled: true },
+      automatic_tax: { enabled: false },
       line_items: [
         {
           price:

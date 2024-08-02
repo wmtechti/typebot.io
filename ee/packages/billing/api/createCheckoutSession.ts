@@ -13,7 +13,7 @@ type Props = {
   email: string
   company: string
   plan: 'STARTER' | 'PRO'
-  currency: 'usd' | 'eur'
+  currency: 'brl' | 'eur'
   vat?: {
     type: string
     value: string

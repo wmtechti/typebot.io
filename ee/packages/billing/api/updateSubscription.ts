@@ -13,7 +13,7 @@ type Props = {
   user: Pick<User, 'email' | 'id'>
   plan: 'STARTER' | 'PRO'
   returnUrl: string
-  currency: 'usd' | 'eur'
+  currency: 'brl' | 'eur'
 }
 
 export const updateSubscription = async ({

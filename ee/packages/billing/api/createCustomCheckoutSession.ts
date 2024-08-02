@@ -84,7 +84,7 @@ export const createCustomCheckoutSession = async ({
     },
     currency: workspace.claimableCustomPlan.currency,
     billing_address_collection: 'required',
-    automatic_tax: { enabled: true },
+    automatic_tax: { enabled: false },
     line_items: [
       {
         price_data: {

@@ -65,7 +65,7 @@ export const getSubscription = async ({ workspaceId, user }: Props) => {
         }
       ),
       status: subscriptionSchema.shape.status.parse(currentSubscription.status),
-      currency: currentSubscription.currency as 'usd' | 'eur',
+      currency: currentSubscription.currency as 'brl' | 'eur',
       cancelDate: currentSubscription.cancel_at
         ? new Date(currentSubscription.cancel_at * 1000)
         : undefined,

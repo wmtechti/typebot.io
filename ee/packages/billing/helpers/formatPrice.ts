@@ -1,7 +1,7 @@
 import { guessIfUserIsEuropean } from './guessIfUserIsEuropean'
 
 type FormatPriceParams = {
-  currency?: 'eur' | 'usd'
+  currency?: 'eur' | 'brl'
   maxFractionDigits?: number
 }
 
@@ -14,7 +14,7 @@ export const formatPrice = (
   const isEuropean = guessIfUserIsEuropean()
   const formatter = new Intl.NumberFormat(isEuropean ? 'fr-FR' : 'en-US', {
     style: 'currency',
-    currency: currency?.toUpperCase() ?? (isEuropean ? 'EUR' : 'USD'),
+    currency: currency?.toUpperCase() ?? (isEuropean ? 'EUR' : 'brl'),
     maximumFractionDigits: maxFractionDigits,
   })
   return formatter.format(price)

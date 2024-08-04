@@ -49,7 +49,7 @@ export const IntroducingChatApps = () => {
             textAlign="center"
             data-aos="fade"
           >
-            Replace your old school forms with chatbots
+               Substitua seus formulários antigos por chatbots
           </Heading>
           <Text
             textAlign="center"
@@ -57,9 +57,10 @@ export const IntroducingChatApps = () => {
             color="gray.400"
             data-aos="fade"
           >
-            Typebot is a better way to ask for information. It leads to an
-            increase in customer satisfaction and retention and multiply by 3
-            your conversion rate compared to classical forms.
+            Typebot é uma maneira melhor de solicitar informações. Ele leva a um 
+            aumento na satisfação e retenção de clientes, multiplicando por 3 
+            sua taxa de conversão em comparação com formulários clássicos.
+
           </Text>
         </Stack>
 
@@ -94,7 +95,7 @@ export const IntroducingChatApps = () => {
             )}
             <Flex top="-20px" right="40px" pos="absolute">
               <Text fontFamily="'Indie Flower'" fontSize="2xl">
-                Try it out!
+              Experimente!
               </Text>
               <HandDrawnArrow
                 transform="rotate(30deg)"
@@ -114,30 +115,30 @@ export const IntroducingChatApps = () => {
 const FakeLeadGenForm = () => (
   <Stack borderWidth="1px" spacing="4" padding="6" rounded="md" w="full">
     <FormControl isRequired>
-      <FormLabel htmlFor="full-name">Full name</FormLabel>
-      <Input id="full-name" placeholder="Full name" />
+      <FormLabel htmlFor="full-name">Nome completo</FormLabel>
+      <Input id="full-name" placeholder="Nome completo" />
     </FormControl>
     <FormControl isRequired>
       <FormLabel htmlFor="email">Email</FormLabel>
       <Input id="email" placeholder="Email" />
     </FormControl>
     <FormControl isRequired>
-      <FormLabel htmlFor="services">
-        What services are you interested in?
+      <FormLabel htmlFor="serviços">
+      Quais serviços podem ajudar mais?
       </FormLabel>
       <Stack>
         <Checkbox>Website Dev</Checkbox>
-        <Checkbox>Content Marketing</Checkbox>
-        <Checkbox>Social Media</Checkbox>
+        <Checkbox>Marketing de conteúdo</Checkbox>
+        <Checkbox>Mídia Social</Checkbox>
         <Checkbox>UX/UI Design</Checkbox>
       </Stack>
     </FormControl>
     <FormControl isRequired>
-      <FormLabel htmlFor="info">Additional Information</FormLabel>
+      <FormLabel htmlFor="info">Informações adicionais</FormLabel>
       <Textarea id="info" placeholder="Additional Information" />
     </FormControl>
     <Flex>
-      <Button>Submit</Button>
+      <Button>Enviar</Button>
     </Flex>
   </Stack>
 )

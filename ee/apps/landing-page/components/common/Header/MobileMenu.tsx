@@ -16,16 +16,16 @@ export const MobileMenu = ({ isOpen }: Props) => (
     >
       <Button
         as={Link}
-        href="https://app.typebot.io/signin"
+        href="https://painelconstrutor.wmtechai.com/register"
         colorScheme="blue"
         variant="outline"
         fontWeight={700}
       >
-        Sign in
+        Entrar
       </Button>
       <Button
         as={Link}
-        href="https://app.typebot.io/register"
+        href="https://painelconstrutor.wmtechai.com/register"
         colorScheme="orange"
         fontWeight={700}
       >

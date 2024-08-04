@@ -74,7 +74,7 @@ export const Header = () => {
               colorScheme="gray"
               fontWeight={700}
             >
-              Resources
+              Recursos
             </Button>
             <ResourcesMenu isOpen={isOpen} />
           </Flex>
@@ -85,16 +85,16 @@ export const Header = () => {
             colorScheme="gray"
             fontWeight={700}
           >
-            Pricing
+            Preço
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/signin"
+            href="https://painelconstrutor.wmtechai.com/register"
             colorScheme="blue"
             variant="outline"
             fontWeight={700}
           >
-            Sign in
+            Entrar
           </Button>
           <Button
             as={Link}

@@ -62,7 +62,7 @@ export const Features = () => {
       >
         <VStack>
           <Heading as="h1" textAlign="center" data-aos="fade">
-            And many more features
+            E muitas outras funcionalidades
           </Heading>
           <Text
             color="gray.500"
@@ -70,7 +70,7 @@ export const Features = () => {
             textAlign="center"
             data-aos="fade"
           >
-            Typebot makes form building easy and comes with powerful features
+            O Typebot facilita a criação de formulários e vem com funcionalidades poderosas
           </Text>
         </VStack>
         <SimpleGrid columns={[1, 3]} spacing="10" pt="10" data-aos="fade">

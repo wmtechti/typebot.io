@@ -38,7 +38,7 @@ export const FreePlanCard = () => (
     button={
       <Button
         as={Link}
-        href="https://app.typebot.io/register"
+        href="https://painelconstrutor.wmtechai.com"
         variant="outline"
         colorScheme="gray"
         size="lg"

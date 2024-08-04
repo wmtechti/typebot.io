@@ -54,7 +54,7 @@ export const RealTimeResults = () => {
             textAlign="center"
             data-aos="fade"
           >
-            Collect results in real-time
+            Colete resultados em tempo real
           </Heading>
           <Text
             textAlign="center"
@@ -63,20 +63,22 @@ export const RealTimeResults = () => {
             fontSize={{ base: 'lg', xl: 'xl' }}
             data-aos="fade"
           >
-            One of the main advantage of a chat application is that you collect
-            the user&apos;s responses on each question.{' '}
-            <strong>You won&apos;t lose any valuable data.</strong>
+            Uma das principais vantagens de um aplicativo de chat é que você coleta
+            as respostas do usuário para cada pergunta.{' '}
+
+            <strong>Você não perderá nenhum dado valioso.</strong>
+            
           </Text>
           <Flex>
             <Button
               as={Link}
               rightIcon={<ArrowRight />}
-              href={`https://app.typebot.io/register`}
+              href={`https://painelconstrutor.wmtechai.com`}
               variant="ghost"
               colorScheme="blue"
               data-aos="fade"
             >
-              Try it now
+              Experimente agora
             </Button>
           </Flex>
         </VStack>
@@ -117,7 +119,7 @@ export const RealTimeResults = () => {
             display={{ base: 'none', xl: 'flex' }}
           >
             <Text fontFamily="'Indie Flower'" fontSize="2xl">
-              It&apos;s a real Airtable view!
+              É uma visão real do Airtable!
             </Text>
             <HandDrawnArrow
               transform="rotate(30deg)"

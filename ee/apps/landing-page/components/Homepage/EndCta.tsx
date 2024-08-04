@@ -61,7 +61,7 @@ export const EndCta = ({ heading, polygonsBaseTop, ...props }: Props) => {
         </Flex>
 
         <Text color="gray.400" data-aos="fade-up" data-aos-delay="400">
-          No trial. Generous <strong>free</strong> plan.
+          Sem período de teste. Plano <strong>gratuito</strong> generoso.
         </Text>
       </VStack>
     </VStack>

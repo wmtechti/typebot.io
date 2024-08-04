@@ -30,7 +30,7 @@ Typebot is an open-source chatbot builder. It allows you to create advanced chat
 </p>
 
 <h3 align="center">
-  <b><a href="https://app.typebot.io/register">Try Typebot</a></b>
+  <b><a href="https://painelconstrutor.wmtechai.com">Try Typebot</a></b>
   •
   <b><a href="https://docs.typebot.io/">Docs</a></b>
 

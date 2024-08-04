@@ -107,7 +107,7 @@ export const Hero = () => {
       <Flex justify="center" bgGradient="linear(to-b, gray.900, gray.800)">
         <VStack spacing="12" pb="32" maxW="7xl" px={4}>
           <Heading fontSize="25px" fontWeight="semibold" data-aos="fade">
-            Loved by teams and creators from all around the world
+               Amado por equipes e criadores de todo o mundo
           </Heading>
           <SimpleGrid
             columns={{ base: 2, md: 4 }}

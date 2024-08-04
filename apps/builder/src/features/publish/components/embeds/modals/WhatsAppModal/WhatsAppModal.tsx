@@ -302,7 +302,7 @@ export const WhatsAppModal = ({ isOpen, onClose }: ModalProps): JSX.Element => {
                       href={`https://wa.me/${phoneNumberData.name}?text=Start`}
                       isExternal
                     >
-                      Try it out
+                      Experimente
                     </TextLink>
                   </ListItem>
                 )}

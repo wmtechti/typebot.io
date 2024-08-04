@@ -29,6 +29,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-tweet": "3.2.1",
+    "scheduler": "^0.23.2",
     "sugar-high": "0.6.0"
   },
   "devDependencies": {

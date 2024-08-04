@@ -5,6 +5,7 @@ configureRuntimeEnv()
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ['utils', 'models'],
+  output: 'standalone',
   async redirects() {
     return [
       {

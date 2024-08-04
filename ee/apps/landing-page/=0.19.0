@@ -1,0 +1,141 @@
+../../..                                 |  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+../../..                                 | Progress: resolved 1, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 54, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 87, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 91, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 101, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 115, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 134, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 147, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 160, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 204, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 209, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 210, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 358, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 445, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 549, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 629, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 688, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 748, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 881, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 978, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1065, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1147, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1213, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1294, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1371, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1425, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1437, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1443, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1600, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1748, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1838, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1904, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 1998, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2049, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2155, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2262, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2388, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2411, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2413, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2421, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2438, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2484, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2492, reused 0, downloaded 0, added 0
+ WARN  14 deprecated subdependencies found: @babel/plugin-proposal-class-properties@7.18.6, @humanwhocodes/config-array@0.11.14, @humanwhocodes/object-schema@2.0.2, abab@2.0.6, cross-spawn-async@2.2.5, domexception@4.0.0, glob@7.1.7, glob@7.2.3, glob@8.1.0, google-p12-pem@4.0.1, inflight@1.0.6, react-remove-scroll-bar@2.3.5, rimraf@3.0.2, stable@0.1.8
+../../..                                 | Progress: resolved 2494, reused 0, downloaded 0, added 0
+../../..                                 | Progress: resolved 2494, reused 0, downloaded 0, added 0, done
+
+dependencies:
++ scheduler ^0.23.2
+
+ WARN  Issues with peer dependencies found
+apps/builder
+├─┬ next-auth 4.22.1
+│ └── ✕ unmet peer next@"^12.2.5 || ^13": found 14.1.0
+└─┬ nextjs-cors 2.1.2
+  └── ✕ unmet peer next@"^8.1.1-canary.54 || ^9.0.0 || ^10.0.0-0 || ^11.0.0 || ^12.0.0 || ^13.0.0": found 14.1.0
+
+apps/viewer
+└─┬ nextjs-cors 2.1.2
+  └── ✕ unmet peer next@"^8.1.1-canary.54 || ^9.0.0 || ^10.0.0-0 || ^11.0.0 || ^12.0.0 || ^13.0.0": found 14.1.0
+
+packages/bot-engine
+└─┬ @udecode/plate-common 30.4.5
+  └─┬ @udecode/plate-core 30.4.5
+    └─┬ zustand-x 3.0.2
+      └─┬ react-tracked 1.7.14
+        ├── ✕ missing peer scheduler@>=0.19.0
+        └─┬ use-context-selector 1.4.4
+          └── ✕ missing peer scheduler@>=0.19.0
+Peer dependencies that should be installed:
+  scheduler@>=0.19.0
+
+packages/deprecated/bot-engine
+└─┬ tsup 6.5.0
+  └── ✕ unmet peer typescript@^4.1.0: found 5.4.5
+
+packages/deprecated/typebot-js
+└─┬ tsup 6.5.0
+  └── ✕ unmet peer typescript@^4.1.0: found 5.4.5
+
+packages/embeds/js
+└─┬ @udecode/plate-common 30.4.5
+  └─┬ @udecode/plate-core 30.4.5
+    └─┬ zustand-x 3.0.2
+      └─┬ react-tracked 1.7.14
+        ├── ✕ missing peer scheduler@>=0.19.0
+        └─┬ use-context-selector 1.4.4
+          └── ✕ missing peer scheduler@>=0.19.0
+Peer dependencies that should be installed:
+  scheduler@>=0.19.0
+
+packages/lib
+└─┬ @udecode/plate-common 30.4.5
+  └─┬ @udecode/plate-core 30.4.5
+    └─┬ zustand-x 3.0.2
+      └─┬ react-tracked 1.7.14
+        ├── ✕ missing peer scheduler@>=0.19.0
+        └─┬ use-context-selector 1.4.4
+          └── ✕ missing peer scheduler@>=0.19.0
+Peer dependencies that should be installed:
+  scheduler@>=0.19.0
+
+packages/logic
+└─┬ @udecode/plate-common 30.4.5
+  └─┬ @udecode/plate-core 30.4.5
+    └─┬ zustand-x 3.0.2
+      └─┬ react-tracked 1.7.14
+        ├── ✕ missing peer scheduler@>=0.19.0
+        └─┬ use-context-selector 1.4.4
+          └── ✕ missing peer scheduler@>=0.19.0
+Peer dependencies that should be installed:
+  scheduler@>=0.19.0
+
+packages/radar
+└─┬ @udecode/plate-common 30.4.5
+  └─┬ @udecode/plate-core 30.4.5
+    └─┬ zustand-x 3.0.2
+      └─┬ react-tracked 1.7.14
+        ├── ✕ missing peer scheduler@>=0.19.0
+        └─┬ use-context-selector 1.4.4
+          └── ✕ missing peer scheduler@>=0.19.0
+Peer dependencies that should be installed:
+  scheduler@>=0.19.0
+
+packages/schemas
+└─┬ @udecode/plate-common 30.4.5
+  └─┬ @udecode/plate-core 30.4.5
+    └─┬ zustand-x 3.0.2
+      └─┬ react-tracked 1.7.14
+        ├── ✕ missing peer scheduler@>=0.19.0
+        └─┬ use-context-selector 1.4.4
+          └── ✕ missing peer scheduler@>=0.19.0
+Peer dependencies that should be installed:
+  scheduler@>=0.19.0
+
+../../..                                 |   +2 +
+../../.. prepare$ husky install
+../../.. prepare: husky - Git hooks installed
+../../.. prepare: Done
+Done in 53.2s

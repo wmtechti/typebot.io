@@ -23,8 +23,8 @@ export const EnterprisePlanCard = () => (
     <Stack maxW="300px" spacing={4}>
       <Heading fontSize="xl">Enterprise</Heading>
       <Text>
-        Ideal for large companies looking to generate leads and automate
-        customer support at scale
+        Ideal para grandes empresas que desejam gerar leads e automatizar 
+        o suporte ao cliente em larga escala
       </Text>
       <Text fontSize="lg">
         <Button
@@ -33,7 +33,7 @@ export const EnterprisePlanCard = () => (
           isExternal
           variant="outline"
         >
-          Get a quote
+          Solicite um orçamento
         </Button>
       </Text>
     </Stack>
@@ -41,15 +41,15 @@ export const EnterprisePlanCard = () => (
       <List spacing="4">
         <ListItem fontWeight="medium" display="flex" alignItems="center">
           <ListIcon fontSize="xl" as={CheckCircleIcon} marginEnd={2} />
-          Custom chats limits & seats for all your team
+          Limites e assentos personalizados para chats para toda a sua equipe
         </ListItem>
         <ListItem fontWeight="medium" display="flex" alignItems="center">
           <ListIcon fontSize="xl" as={CheckCircleIcon} marginEnd={2} />
-          SSO & Granular access rights
+          SSO e direitos de acesso granulares
         </ListItem>
         <ListItem fontWeight="medium" display="flex" alignItems="center">
           <ListIcon fontSize="xl" as={CheckCircleIcon} marginEnd={2} />
-          Yearly contract with dedicated support representative
+          Contrato anual com representante de suporte dedicado
         </ListItem>
       </List>
     </Stack>

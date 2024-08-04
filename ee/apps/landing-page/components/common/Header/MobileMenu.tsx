@@ -29,7 +29,7 @@ export const MobileMenu = ({ isOpen }: Props) => (
         colorScheme="orange"
         fontWeight={700}
       >
-        Create a typebot
+        Crie um typebot
       </Button>
       <Button
         as={Link}

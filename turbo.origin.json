@@ -33,19 +33,6 @@
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "outputLogs": "new-only"
     },
-    "landing-page#build": {
-      "env": ["VERCEL_*", "NEXTAUTH_URL", "SENTRY_*", "LANDING_PAGE_URL"],
-      "dependsOn": ["^build", "@typebot.io/prisma#db:generate"],
-      "outputs": [
-        "ee/apps/landing-page/.next/**",
-        "!.next/cache/**",
-        "ee/apps/landing-page/dist/**",
-        "ee/apps/landing-page/build/**",
-        "ee/apps/landing-page/public/__ENV.js"
-      ],
-      "inputs": ["$TURBO_DEFAULT$", ".env"],
-      "outputLogs": "new-only"
-    },
     "docs#build": {
       "dependsOn": ["api:generate"],
       "outputs": ["build/**"],

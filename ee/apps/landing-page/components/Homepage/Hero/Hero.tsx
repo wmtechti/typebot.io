@@ -33,7 +33,7 @@ export const Hero = () => {
               bgClip="text"
               data-aos="fade-up"
             >
-              Build advanced chatbots visually
+              Construa chatbots avançados visualmente
             </Heading>
             <Text
               fontSize={['lg', 'xl']}
@@ -42,9 +42,9 @@ export const Hero = () => {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Typebot gives you powerful blocks to create unique chat
-              experiences. Embed them anywhere on your web/mobile apps and start
-              collecting results like magic.
+              O Typebot oferece blocos poderosos para criar experiências de chat
+              únicas. Incorpore-os em qualquer lugar em seus aplicativos web/móveis e
+              comece a coletar resultados como mágica.
             </Text>
             <Stack
               direction={['column-reverse', 'row']}
@@ -53,13 +53,13 @@ export const Hero = () => {
             >
               <Button
                 as={Link}
-                href="https://app.typebot.io/register"
+                href="https://painelconstrutor.wmtechai.com/register"
                 colorScheme="orange"
                 size="lg"
                 height="4rem"
                 px="2rem"
               >
-                Create a typebot for free
+                Crie um typebot gratuitamente
               </Button>
             </Stack>
           </VStack>

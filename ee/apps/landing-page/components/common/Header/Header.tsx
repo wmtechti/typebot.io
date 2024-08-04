@@ -98,11 +98,11 @@ export const Header = () => {
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/register"
+            href="https://painelconstrutor.wmtechai.com/register"
             colorScheme="orange"
             fontWeight={700}
           >
-            Create a typebot
+            Crie um typebot
           </Button>
         </HStack>
       </HStack>

@@ -10,9 +10,9 @@ export const ArticleCallToAction = () => (
       size="lg"
       colorScheme="orange"
       as="a"
-      href="https://app.typebot.io/register"
+      href="https://painelconstrutor.wmtechai.com/register"
     >
-      Create a typebot
+      Crie um typebot
     </Button>
     <Text fontSize="sm" fontStyle="italic" color="gray.600">
       It&apos;s free!
